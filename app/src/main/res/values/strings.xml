@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Assignment4</string>
+
+    <string-array name="Numbers">
+        <item>CAD</item>
+        <item>USD</item>
+        <item>EURO</item>
+        <item>GBP</item>
+        <item>CHF</item>
+        <item>CNY</item>
+    </string-array>
+
+    <string-array name="Descriptions">
+        <item>Canada has an extensive history with regard to its currencies. Prior to European contact, indigenous peoples in Canada used items such as wampum and furs for trading purposes, which continued when trade with Europeans began
+             The Canadian colonies gradually moved away from the British pound and adopted currencies linked to the United States dollar. With Confederation in 1867, the Canadian dollar was established.
+        </item>
+
+        <item>The history of the United States dollar began with moves by the Founding Fathers of the United States of America to establish a national currency based on the Spanish silver dollar,
+            which had been in use in the North American colonies of the United Kingdom for over 100 years prior to the United States Declaration of Independence.
+        </item>
+
+        <item>The euro came into existence on 1 January 1999, although it had been a goal of the European Union (EU) and its predecessors since the 1960s.
+            After tough negotiations, the Maastricht Treaty entered into force in 1993 with the goal of creating an economic and monetary union by 1999 for all EU states except the UK and Denmark (even though Denmark has a fixed exchange rate policy with the euro).
+        </item>
+
+        <item>The pound sterling (symbol: £; ISO code: GBP), known in some contexts as the British pound, the pound, or sterling,[2] is the official currency of the United Kingdom, Jersey, Guernsey, the Isle of Man, Gibraltar,
+            South Georgia and the South Sandwich Islands, the British Antarctic Territory,[3][4] and Tristan da Cunha. Sterling is the fourth most-traded currency in the foreign exchange market, after the United States dollar, the euro, and the Japanese yen.
+        </item>
+
+        <item>The Swiss franc is the currency and legal tender of Switzerland and Liechtenstein. Before 1798, about 75 entities were making coins in Switzerland, including the 25 cantons and half-cantons, 16 cities,
+            and abbeys, resulting in about 860 different coins in circulation, with different values, denominations and monetary systems.
+        </item>
+
+        <item>The history of Chinese currency spans more than 3000 years. Currency of some type has been used in China since the Neolithic age which can be traced back to between 3000 and 4500 years ago.
+            Cowry shells are believed to have been the earliest form of currency used in Central China, and were used during the Neolithic period.
+        </item>
+    </string-array>
+
+</resources>

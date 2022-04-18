@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/simplebackgroundcolor2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="Welcome to USD to multiple currency converter app"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:text="Please input $USD Amount to convert"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:id="@+id/conversionAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="$USD Amount"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+
+        <Button
+            android:id="@+id/btnCAD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="$CAD"/>
+
+        <Button
+            android:id="@+id/btnEuro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="Euro" />
+
+        <Button
+            android:id="@+id/btnGBP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="GBP" />
+
+        <Button
+            android:id="@+id/btnCHF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHF"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:onClick="clickButton"
+            android:text="Extra Currency" />
+
+        <Button
+            android:id="@+id/btnDB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showResults"
+            android:layout_marginRight="15dp"
+            android:text="Show DB" />
+
+        <Button
+            android:id="@+id/btnextraInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="extraInfo"
+            android:layout_marginRight="15dp"
+            android:text="Extra Info" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLocale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="295dp"
+        android:layout_marginTop="10dp"
+        android:onClick="extraLocale"
+        android:text="Locale" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="12sp" />
+
+</LinearLayout>
