@@ -1,6 +1,6 @@
 # Currency-Converter
  
- This application lets the users select a particular amount in US dollars and lets them choose a currency to convert it to. Currencies include CAD, EURO, GBP, CHF and CNY. Canadian Dollars, Euros, Great Britain Pounds, Swiss Francs and Chinese Yuan respectively. Every time a currency to convert to is selected a new activity is initiated and displays the converted amount. Check the screenshots and the application’s code for more information.
+ This application was my final project for my **Mobile Applications Development course**. It lets the users select a particular amount in US dollars and lets them choose a currency to convert it to. Currencies include CAD, EURO, GBP, CHF and CNY. Canadian Dollars, Euros, Great Britain Pounds, Swiss Francs and Chinese Yuan respectively. Every time a currency to convert to is selected a new activity is initiated and displays the converted amount. Check the screenshots and the application’s code for more information.
 
 The application includes a fragment which is instantiated when the user clicks on “Extra Info”. It allows the user to click on any given currency and provides an explained history of the currency to date. 
 
